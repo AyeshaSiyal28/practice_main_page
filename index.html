@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-------------------------------- nav_bar start ---------------------------->
+    <nav>
+        <div class="logo">
+            <img src="./images/A logo.jpeg" alt=""> 
+        </div>
+        <div class="menu">
+                <div class="menu_list" onclick="menutoggle()">
+                    <p class="line"></p>
+                    <p class="line"></p>
+                    <p class="line"></p>
+                </div>
+            <ul id="link" class="link">
+                <li><a href="#">Home</a></li>
+                <li><a href="./about/about.html">about Us</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- ----------------------------nav_bar end-------------------------------->
+    <!------------------------------- introduction -------------------------------->
+    <div class="main">
+        <div class="image">
+            <img src="./images/woman.webp" alt="">
+        </div>
+        <div class="info">
+            <h1>Hi,</h1>
+            <h2> I'm <span>Ayesha Siyal</span> </h2>
+            <h3>Full Stack Web Developer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur  adipisicing elit. Eius, error est consequatur officia  consequuntur dolorum incidunt repellat dignissimos ratione unde, veniam quaerat sed earum deleniti, minima facilis et accusantium saepe!</p>
+            <button >More Info</button>
+        </div>
+    </div>
+    <!----------------------------------- about my intro ---------------------->
+    <div class="about">
+        <div class="myself">
+            <h1>About, <span>My</span> Self.</h1>
+            <p>Myself Ayesha Siyal from sindh pakistan and i'm Web developer</p>
+            <div class="information">
+                   <h4>Degree</h4>
+                   <p>kjsrhf wkejhf jegf jehgf jkkwehgf</p>
+                   <hr>
+                   <h4>Hobies</h4>
+                   <p>Coding , Watching dramas , travelling</p>
+                   <hr>
+                   <h4>Skills</h4>
+                   <p>HTML , CSS , JAVASCRIPT , PHP , MYSQL</p>
+
+            </div>
+        </div>
+        <div class="myimg">
+                <div class="prev" onclick="slideBack()">
+                    <img src="./images/back.png" alt="">
+                </div>
+             <img src="./images/img1.jpg" alt="" id="slider">
+             <div class="next" onclick="slideForward()">
+                <img src="./images/next.png" alt="">
+             </div>
+        </div>
+    </div>
+    <div class="project">
+        <h1>PrOjEcTs</h1>
+           <h4>Design This projects By Me </h4>
+    </div>
+    
+
+    
+   
+</body>
+<script src="./js/script.js"></script>
+</html>
